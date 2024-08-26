@@ -1,0 +1,16 @@
+# Navigate to the project folder
+cd /path/to/your/project
+
+# Initialize a Git repository
+git init
+
+# Add the remote repository (https://github.com/Pranathi-T/CODTECH-TASK-2.git)
+git remote add origin https://github.com/Pranathi-T/CODTECH-TASK-2.git
+# Add all the files
+git add .
+
+# Commit the changes
+git commit -m "Initial commit - Customer Segmentation Analysis Project"
+
+# Push the changes to GitHub
+git push -u origin master
